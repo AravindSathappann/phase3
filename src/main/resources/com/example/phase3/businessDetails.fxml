@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase3.BusinessDetailsController">
+   <children>
+      <VBox prefHeight="594.0" prefWidth="700.0" spacing="20.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="titleLabel" styleClass="subtitle-text" text="Similar to">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin></Label>
+               </children>
+            </HBox>
+            <TableView prefHeight="572.0" prefWidth="700.0">
+              <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="180.0" text="Name" />
+                <TableColumn fx:id="addressColumn" prefWidth="200.0" text="Address" />
+                  <TableColumn fx:id="cityColumn" prefWidth="100.0" text="City" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

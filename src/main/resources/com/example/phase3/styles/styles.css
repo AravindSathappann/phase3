@@ -1,0 +1,21 @@
+.root {
+    -fx-font-family: 'Roboto', 'Segoe UI', sans-serif;
+    -fx-font-size: 10px;
+    -fx-background-color: #FFFFFF;
+
+    -yelp-color: #3289d5;
+    -yelp-color-light: rgba(137, 197, 230, 0.25);
+    -primary-text: #2D2E2F;
+    -secondary-text: #757280;
+    -selected-text: #C2C0C0;
+    -border-color: #E6Е6E6;
+    -blue-color: #0000FF;
+    -title-color:#154d8e;
+}
+
+.subtitle-text {
+    -fx-text-fill: -title-color;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 2px 5px 2px 10px;
+}
